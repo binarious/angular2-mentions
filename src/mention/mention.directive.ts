@@ -163,7 +163,7 @@ export class MentionDirective {
               ? mention
               : mention.substring(1);
           let matches = this.items.filter(
-              e => e.indexOf(mentionFilter) !== -1 &&
+              e => e.indexOf(mentionFilter) !== -1 ||
                    e.indexOf(mentionFilter.toLowerCase()) !== -1
           );
           this.searchList.items = matches;
