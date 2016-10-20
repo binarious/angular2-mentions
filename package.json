@@ -7,7 +7,7 @@
     "mention",
     "autocomplete"
   ],
-  "main": "src/mention/index.ts",
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/dmacfarlane/angular2-mentions.git"
