@@ -176,6 +176,9 @@ export class MentionDirective {
 
   blurHandler() {
     this.stopEvent(event);
+    if (!this.searchList) {
+      return;
+    }
     this.searchList.hidden = true;
     this.escapePressed = true;
   }
